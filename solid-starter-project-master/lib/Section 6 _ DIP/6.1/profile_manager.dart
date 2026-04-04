@@ -1,5 +1,6 @@
-import 'package:solid_examples/Section%206%20:%20DIP/6.1/firebase_api_service.dart';
-import 'package:solid_examples/Section%206%20:%20DIP/6.1/user_profile.dart';
+
+import 'package:solid_examples/Section%206%20_%20DIP/6.1/firebase_api_service.dart';
+import 'package:solid_examples/Section%206%20_%20DIP/6.1/user_profile.dart';
 
 class ProfileManager {
   final FirebaseApiService _apiService = FirebaseApiService();

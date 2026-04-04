@@ -1,7 +1,8 @@
-import 'package:solid_examples/Section%206%20:%20DIP/6.3/services/analytics_service.dart';
-import 'package:solid_examples/Section%206%20:%20DIP/6.3/services/api_service.dart';
-import 'package:solid_examples/Section%206%20:%20DIP/6.3/services/auth_service.dart';
-import 'package:solid_examples/Section%206%20:%20DIP/6.3/services/profile_service.dart';
+
+import 'package:solid_examples/Section%206%20_%20DIP/6.3/services/analytics_service.dart';
+import 'package:solid_examples/Section%206%20_%20DIP/6.3/services/api_service.dart';
+import 'package:solid_examples/Section%206%20_%20DIP/6.3/services/auth_service.dart';
+import 'package:solid_examples/Section%206%20_%20DIP/6.3/services/profile_service.dart';
 
 class UserModule {
   final AuthService authService;

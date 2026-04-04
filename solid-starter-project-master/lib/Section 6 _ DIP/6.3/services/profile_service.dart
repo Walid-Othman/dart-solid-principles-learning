@@ -1,6 +1,7 @@
-import 'package:solid_examples/Section%206%20:%20DIP/6.3/services/analytics_service.dart';
-import 'package:solid_examples/Section%206%20:%20DIP/6.3/services/api_service.dart';
-import 'package:solid_examples/Section%206%20:%20DIP/6.3/services/auth_service.dart';
+
+import 'package:solid_examples/Section%206%20_%20DIP/6.3/services/analytics_service.dart';
+import 'package:solid_examples/Section%206%20_%20DIP/6.3/services/api_service.dart';
+import 'package:solid_examples/Section%206%20_%20DIP/6.3/services/auth_service.dart';
 
 class ProfileService {
   final AuthService authService;

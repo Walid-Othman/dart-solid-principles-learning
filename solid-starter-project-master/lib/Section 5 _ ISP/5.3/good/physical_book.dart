@@ -1,7 +1,8 @@
-import 'package:solid_examples/Section%205%20:%20ISP/5.3/good/mixines/gift_wrappable.dart';
-import 'package:solid_examples/Section%205%20:%20ISP/5.3/good/mixines/returnable.dart';
-import 'package:solid_examples/Section%205%20:%20ISP/5.3/good/mixines/reviewable.dart';
-import 'package:solid_examples/Section%205%20:%20ISP/5.3/good/mixines/shippable.dart';
+
+import 'package:solid_examples/Section%205%20_%20ISP/5.3/good/mixines/gift_wrappable.dart';
+import 'package:solid_examples/Section%205%20_%20ISP/5.3/good/mixines/returnable.dart';
+import 'package:solid_examples/Section%205%20_%20ISP/5.3/good/mixines/reviewable.dart';
+import 'package:solid_examples/Section%205%20_%20ISP/5.3/good/mixines/shippable.dart';
 
 class PhysicalBook with Shippable, Returnable, GiftWrappable, Reviewable {
   String title;
