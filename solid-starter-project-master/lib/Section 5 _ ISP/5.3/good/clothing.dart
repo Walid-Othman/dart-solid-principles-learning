@@ -1,7 +1,7 @@
-import 'package:solid_examples/Section%205%20_%20ISP/5.3/good/mixines/gift_wrappable.dart';
-import 'package:solid_examples/Section%205%20_%20ISP/5.3/good/mixines/returnable.dart';
-import 'package:solid_examples/Section%205%20_%20ISP/5.3/good/mixines/reviewable.dart';
-import 'package:solid_examples/Section%205%20_%20ISP/5.3/good/mixines/shippable.dart';
+import 'mixines/gift_wrappable.dart';
+import 'mixines/returnable.dart';
+import 'mixines/reviewable.dart';
+import 'mixines/shippable.dart';
 
 class Clothing with Shippable, GiftWrappable, Reviewable, Returnable {
   String name;
